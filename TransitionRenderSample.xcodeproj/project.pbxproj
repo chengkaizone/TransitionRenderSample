@@ -18,6 +18,8 @@
 		7EC0C37E1CABBDE200BD72E5 /* LYWindRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0C37D1CABBDE200BD72E5 /* LYWindRenderer.m */; };
 		7EC0C3811CABBE4F00BD72E5 /* LYSimpleFlipRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0C3801CABBE4F00BD72E5 /* LYSimpleFlipRenderer.m */; };
 		7EC0C3841CABBE8C00BD72E5 /* LYPinwheelRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0C3831CABBE8C00BD72E5 /* LYPinwheelRenderer.m */; };
+		7EC0C38B1CABC28100BD72E5 /* APLCustomVideoCompositionInstruction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0C3881CABC28100BD72E5 /* APLCustomVideoCompositionInstruction.m */; };
+		7EC0C38C1CABC28100BD72E5 /* APLCustomVideoCompositor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0C38A1CABC28100BD72E5 /* APLCustomVideoCompositor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,10 @@
 		7EC0C3801CABBE4F00BD72E5 /* LYSimpleFlipRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSimpleFlipRenderer.m; sourceTree = "<group>"; };
 		7EC0C3821CABBE8C00BD72E5 /* LYPinwheelRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYPinwheelRenderer.h; sourceTree = "<group>"; };
 		7EC0C3831CABBE8C00BD72E5 /* LYPinwheelRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYPinwheelRenderer.m; sourceTree = "<group>"; };
+		7EC0C3871CABC28100BD72E5 /* APLCustomVideoCompositionInstruction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLCustomVideoCompositionInstruction.h; sourceTree = "<group>"; };
+		7EC0C3881CABC28100BD72E5 /* APLCustomVideoCompositionInstruction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLCustomVideoCompositionInstruction.m; sourceTree = "<group>"; };
+		7EC0C3891CABC28100BD72E5 /* APLCustomVideoCompositor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLCustomVideoCompositor.h; sourceTree = "<group>"; };
+		7EC0C38A1CABC28100BD72E5 /* APLCustomVideoCompositor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLCustomVideoCompositor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,7 @@
 			children = (
 				7E1321711CA933AD0087E244 /* Src */,
 				7E1321701CA933AD0087E244 /* Render */,
+				7EC0C3861CABC28100BD72E5 /* Compositor */,
 				7E13215E1CA9334D0087E244 /* Main.storyboard */,
 				7E1321611CA9334D0087E244 /* Assets.xcassets */,
 				7E1321631CA9334D0087E244 /* LaunchScreen.storyboard */,
@@ -110,6 +117,17 @@
 				7E13215C1CA9334D0087E244 /* ViewController.swift */,
 			);
 			path = Src;
+			sourceTree = "<group>";
+		};
+		7EC0C3861CABC28100BD72E5 /* Compositor */ = {
+			isa = PBXGroup;
+			children = (
+				7EC0C3871CABC28100BD72E5 /* APLCustomVideoCompositionInstruction.h */,
+				7EC0C3881CABC28100BD72E5 /* APLCustomVideoCompositionInstruction.m */,
+				7EC0C3891CABC28100BD72E5 /* APLCustomVideoCompositor.h */,
+				7EC0C38A1CABC28100BD72E5 /* APLCustomVideoCompositor.m */,
+			);
+			path = Compositor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,8 +202,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E13215D1CA9334D0087E244 /* ViewController.swift in Sources */,
+				7EC0C38C1CABC28100BD72E5 /* APLCustomVideoCompositor.m in Sources */,
 				7EC0C37E1CABBDE200BD72E5 /* LYWindRenderer.m in Sources */,
 				7EC0C3811CABBE4F00BD72E5 /* LYSimpleFlipRenderer.m in Sources */,
+				7EC0C38B1CABC28100BD72E5 /* APLCustomVideoCompositionInstruction.m in Sources */,
 				7E13215B1CA9334D0087E244 /* AppDelegate.swift in Sources */,
 				7EC0C37B1CABBD4500BD72E5 /* LYFoldRenderer.m in Sources */,
 				7EC0C3781CABBCB200BD72E5 /* LYStarWipeRenderer.m in Sources */,

@@ -12,16 +12,35 @@
 		7E1321601CA9334D0087E244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E13215E1CA9334D0087E244 /* Main.storyboard */; };
 		7E1321621CA9334D0087E244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E1321611CA9334D0087E244 /* Assets.xcassets */; };
 		7E1321651CA9334D0087E244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1321631CA9334D0087E244 /* LaunchScreen.storyboard */; };
+		7E1321751CA933D20087E244 /* APLOpenGLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1321741CA933D20087E244 /* APLOpenGLRenderer.m */; };
+		7EC0C3781CABBCB200BD72E5 /* LYStarWipeRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0C3771CABBCB200BD72E5 /* LYStarWipeRenderer.m */; };
+		7EC0C37B1CABBD4500BD72E5 /* LYFoldRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0C37A1CABBD4500BD72E5 /* LYFoldRenderer.m */; };
+		7EC0C37E1CABBDE200BD72E5 /* LYWindRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0C37D1CABBDE200BD72E5 /* LYWindRenderer.m */; };
+		7EC0C3811CABBE4F00BD72E5 /* LYSimpleFlipRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0C3801CABBE4F00BD72E5 /* LYSimpleFlipRenderer.m */; };
+		7EC0C3841CABBE8C00BD72E5 /* LYPinwheelRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0C3831CABBE8C00BD72E5 /* LYPinwheelRenderer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7E1321571CA9334C0087E244 /* TransitionRenderSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransitionRenderSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E13215A1CA9334D0087E244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7E13215C1CA9334D0087E244 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E13215A1CA9334D0087E244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		7E13215C1CA9334D0087E244 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		7E13215F1CA9334D0087E244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E1321611CA9334D0087E244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E1321641CA9334D0087E244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E1321661CA9334D0087E244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E1321721CA933D20087E244 /* TransitionRenderSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TransitionRenderSample-Bridging-Header.h"; sourceTree = "<group>"; };
+		7E1321731CA933D20087E244 /* APLOpenGLRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLOpenGLRenderer.h; sourceTree = "<group>"; };
+		7E1321741CA933D20087E244 /* APLOpenGLRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLOpenGLRenderer.m; sourceTree = "<group>"; };
+		7EC0C3761CABBCB200BD72E5 /* LYStarWipeRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYStarWipeRenderer.h; sourceTree = "<group>"; };
+		7EC0C3771CABBCB200BD72E5 /* LYStarWipeRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYStarWipeRenderer.m; sourceTree = "<group>"; };
+		7EC0C3791CABBD4500BD72E5 /* LYFoldRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYFoldRenderer.h; sourceTree = "<group>"; };
+		7EC0C37A1CABBD4500BD72E5 /* LYFoldRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYFoldRenderer.m; sourceTree = "<group>"; };
+		7EC0C37C1CABBDE200BD72E5 /* LYWindRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYWindRenderer.h; sourceTree = "<group>"; };
+		7EC0C37D1CABBDE200BD72E5 /* LYWindRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYWindRenderer.m; sourceTree = "<group>"; };
+		7EC0C37F1CABBE4F00BD72E5 /* LYSimpleFlipRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSimpleFlipRenderer.h; sourceTree = "<group>"; };
+		7EC0C3801CABBE4F00BD72E5 /* LYSimpleFlipRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSimpleFlipRenderer.m; sourceTree = "<group>"; };
+		7EC0C3821CABBE8C00BD72E5 /* LYPinwheelRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYPinwheelRenderer.h; sourceTree = "<group>"; };
+		7EC0C3831CABBE8C00BD72E5 /* LYPinwheelRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYPinwheelRenderer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +73,43 @@
 		7E1321591CA9334D0087E244 /* TransitionRenderSample */ = {
 			isa = PBXGroup;
 			children = (
-				7E13215A1CA9334D0087E244 /* AppDelegate.swift */,
-				7E13215C1CA9334D0087E244 /* ViewController.swift */,
+				7E1321711CA933AD0087E244 /* Src */,
+				7E1321701CA933AD0087E244 /* Render */,
 				7E13215E1CA9334D0087E244 /* Main.storyboard */,
 				7E1321611CA9334D0087E244 /* Assets.xcassets */,
 				7E1321631CA9334D0087E244 /* LaunchScreen.storyboard */,
 				7E1321661CA9334D0087E244 /* Info.plist */,
 			);
 			path = TransitionRenderSample;
+			sourceTree = "<group>";
+		};
+		7E1321701CA933AD0087E244 /* Render */ = {
+			isa = PBXGroup;
+			children = (
+				7E1321731CA933D20087E244 /* APLOpenGLRenderer.h */,
+				7E1321741CA933D20087E244 /* APLOpenGLRenderer.m */,
+				7EC0C3761CABBCB200BD72E5 /* LYStarWipeRenderer.h */,
+				7EC0C3771CABBCB200BD72E5 /* LYStarWipeRenderer.m */,
+				7EC0C3791CABBD4500BD72E5 /* LYFoldRenderer.h */,
+				7EC0C37A1CABBD4500BD72E5 /* LYFoldRenderer.m */,
+				7EC0C37C1CABBDE200BD72E5 /* LYWindRenderer.h */,
+				7EC0C37D1CABBDE200BD72E5 /* LYWindRenderer.m */,
+				7EC0C37F1CABBE4F00BD72E5 /* LYSimpleFlipRenderer.h */,
+				7EC0C3801CABBE4F00BD72E5 /* LYSimpleFlipRenderer.m */,
+				7EC0C3821CABBE8C00BD72E5 /* LYPinwheelRenderer.h */,
+				7EC0C3831CABBE8C00BD72E5 /* LYPinwheelRenderer.m */,
+				7E1321721CA933D20087E244 /* TransitionRenderSample-Bridging-Header.h */,
+			);
+			path = Render;
+			sourceTree = "<group>";
+		};
+		7E1321711CA933AD0087E244 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				7E13215A1CA9334D0087E244 /* AppDelegate.swift */,
+				7E13215C1CA9334D0087E244 /* ViewController.swift */,
+			);
+			path = Src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +184,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E13215D1CA9334D0087E244 /* ViewController.swift in Sources */,
+				7EC0C37E1CABBDE200BD72E5 /* LYWindRenderer.m in Sources */,
+				7EC0C3811CABBE4F00BD72E5 /* LYSimpleFlipRenderer.m in Sources */,
 				7E13215B1CA9334D0087E244 /* AppDelegate.swift in Sources */,
+				7EC0C37B1CABBD4500BD72E5 /* LYFoldRenderer.m in Sources */,
+				7EC0C3781CABBCB200BD72E5 /* LYStarWipeRenderer.m in Sources */,
+				7E1321751CA933D20087E244 /* APLOpenGLRenderer.m in Sources */,
+				7EC0C3841CABBE8C00BD72E5 /* LYPinwheelRenderer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,10 +305,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				INFOPLIST_FILE = TransitionRenderSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lance.TransitionRenderSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TransitionRenderSample/Render/TransitionRenderSample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -262,10 +320,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				INFOPLIST_FILE = TransitionRenderSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lance.TransitionRenderSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TransitionRenderSample/Render/TransitionRenderSample-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -288,6 +349,7 @@
 				7E13216B1CA9334D0087E244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

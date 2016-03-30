@@ -48,26 +48,11 @@
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
 
+@class APLOpenGLRenderer;
+
 @interface APLCustomVideoCompositor : NSObject <AVVideoCompositing>
 
-@end
-
-@interface VTSPinwheelVideoCompositor : APLCustomVideoCompositor
+@property (nonatomic, strong) APLOpenGLRenderer *oglRenderer;
 
 @end
 
-@interface VTSSimpleFlipVideoCompositor : APLCustomVideoCompositor
-
-@end
-
-@interface VTSWindVideoCompositor : APLCustomVideoCompositor
-
-@end
-
-@interface VTSFoldVideoCompositor : APLCustomVideoCompositor
-
-@end
-
-@interface VTSStarWipeVideoCompositor : APLCustomVideoCompositor
-
-@end

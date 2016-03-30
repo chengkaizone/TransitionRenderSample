@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  TransitionRenderSample
 //
-//  Created by joinhov on 16/3/28.
+//  Created by lance on 16/3/28.
 //  Copyright © 2016年 lance. All rights reserved.
 //
 

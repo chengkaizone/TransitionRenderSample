@@ -20,6 +20,11 @@
 		7EC0C3841CABBE8C00BD72E5 /* LYPinwheelRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0C3831CABBE8C00BD72E5 /* LYPinwheelRenderer.m */; };
 		7EC0C38B1CABC28100BD72E5 /* APLCustomVideoCompositionInstruction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0C3881CABC28100BD72E5 /* APLCustomVideoCompositionInstruction.m */; };
 		7EC0C38C1CABC28100BD72E5 /* APLCustomVideoCompositor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0C38A1CABC28100BD72E5 /* APLCustomVideoCompositor.m */; };
+		7EC0C38F1CABC52600BD72E5 /* LYPinwheelVideoCompositor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0C38E1CABC52600BD72E5 /* LYPinwheelVideoCompositor.m */; };
+		7EC0C3921CABC53900BD72E5 /* LYSimpleFlipVideoCompositor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0C3911CABC53900BD72E5 /* LYSimpleFlipVideoCompositor.m */; };
+		7EC0C3951CABC55600BD72E5 /* LYWindVideoCompositor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0C3941CABC55600BD72E5 /* LYWindVideoCompositor.m */; };
+		7EC0C3981CABC56500BD72E5 /* LYFoldVideoCompositor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0C3971CABC56500BD72E5 /* LYFoldVideoCompositor.m */; };
+		7EC0C39B1CABC57600BD72E5 /* LYStarWipeVideoCompositor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0C39A1CABC57600BD72E5 /* LYStarWipeVideoCompositor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +52,16 @@
 		7EC0C3881CABC28100BD72E5 /* APLCustomVideoCompositionInstruction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLCustomVideoCompositionInstruction.m; sourceTree = "<group>"; };
 		7EC0C3891CABC28100BD72E5 /* APLCustomVideoCompositor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLCustomVideoCompositor.h; sourceTree = "<group>"; };
 		7EC0C38A1CABC28100BD72E5 /* APLCustomVideoCompositor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLCustomVideoCompositor.m; sourceTree = "<group>"; };
+		7EC0C38D1CABC52600BD72E5 /* LYPinwheelVideoCompositor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYPinwheelVideoCompositor.h; sourceTree = "<group>"; };
+		7EC0C38E1CABC52600BD72E5 /* LYPinwheelVideoCompositor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYPinwheelVideoCompositor.m; sourceTree = "<group>"; };
+		7EC0C3901CABC53900BD72E5 /* LYSimpleFlipVideoCompositor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSimpleFlipVideoCompositor.h; sourceTree = "<group>"; };
+		7EC0C3911CABC53900BD72E5 /* LYSimpleFlipVideoCompositor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSimpleFlipVideoCompositor.m; sourceTree = "<group>"; };
+		7EC0C3931CABC55600BD72E5 /* LYWindVideoCompositor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYWindVideoCompositor.h; sourceTree = "<group>"; };
+		7EC0C3941CABC55600BD72E5 /* LYWindVideoCompositor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYWindVideoCompositor.m; sourceTree = "<group>"; };
+		7EC0C3961CABC56500BD72E5 /* LYFoldVideoCompositor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYFoldVideoCompositor.h; sourceTree = "<group>"; };
+		7EC0C3971CABC56500BD72E5 /* LYFoldVideoCompositor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYFoldVideoCompositor.m; sourceTree = "<group>"; };
+		7EC0C3991CABC57600BD72E5 /* LYStarWipeVideoCompositor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYStarWipeVideoCompositor.h; sourceTree = "<group>"; };
+		7EC0C39A1CABC57600BD72E5 /* LYStarWipeVideoCompositor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYStarWipeVideoCompositor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +141,16 @@
 				7EC0C3881CABC28100BD72E5 /* APLCustomVideoCompositionInstruction.m */,
 				7EC0C3891CABC28100BD72E5 /* APLCustomVideoCompositor.h */,
 				7EC0C38A1CABC28100BD72E5 /* APLCustomVideoCompositor.m */,
+				7EC0C38D1CABC52600BD72E5 /* LYPinwheelVideoCompositor.h */,
+				7EC0C38E1CABC52600BD72E5 /* LYPinwheelVideoCompositor.m */,
+				7EC0C3901CABC53900BD72E5 /* LYSimpleFlipVideoCompositor.h */,
+				7EC0C3911CABC53900BD72E5 /* LYSimpleFlipVideoCompositor.m */,
+				7EC0C3931CABC55600BD72E5 /* LYWindVideoCompositor.h */,
+				7EC0C3941CABC55600BD72E5 /* LYWindVideoCompositor.m */,
+				7EC0C3961CABC56500BD72E5 /* LYFoldVideoCompositor.h */,
+				7EC0C3971CABC56500BD72E5 /* LYFoldVideoCompositor.m */,
+				7EC0C3991CABC57600BD72E5 /* LYStarWipeVideoCompositor.h */,
+				7EC0C39A1CABC57600BD72E5 /* LYStarWipeVideoCompositor.m */,
 			);
 			path = Compositor;
 			sourceTree = "<group>";
@@ -203,14 +228,19 @@
 			files = (
 				7E13215D1CA9334D0087E244 /* ViewController.swift in Sources */,
 				7EC0C38C1CABC28100BD72E5 /* APLCustomVideoCompositor.m in Sources */,
+				7EC0C3981CABC56500BD72E5 /* LYFoldVideoCompositor.m in Sources */,
 				7EC0C37E1CABBDE200BD72E5 /* LYWindRenderer.m in Sources */,
 				7EC0C3811CABBE4F00BD72E5 /* LYSimpleFlipRenderer.m in Sources */,
+				7EC0C39B1CABC57600BD72E5 /* LYStarWipeVideoCompositor.m in Sources */,
+				7EC0C38F1CABC52600BD72E5 /* LYPinwheelVideoCompositor.m in Sources */,
 				7EC0C38B1CABC28100BD72E5 /* APLCustomVideoCompositionInstruction.m in Sources */,
 				7E13215B1CA9334D0087E244 /* AppDelegate.swift in Sources */,
 				7EC0C37B1CABBD4500BD72E5 /* LYFoldRenderer.m in Sources */,
+				7EC0C3921CABC53900BD72E5 /* LYSimpleFlipVideoCompositor.m in Sources */,
 				7EC0C3781CABBCB200BD72E5 /* LYStarWipeRenderer.m in Sources */,
 				7E1321751CA933D20087E244 /* APLOpenGLRenderer.m in Sources */,
 				7EC0C3841CABBE8C00BD72E5 /* LYPinwheelRenderer.m in Sources */,
+				7EC0C3951CABC55600BD72E5 /* LYWindVideoCompositor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
